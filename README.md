@@ -1,4 +1,8 @@
-# 🚗 Line-Following Robot (Robot Siguelíneas)
+<h1 align="center">🚗 Line-Following Robot (Robot Siguelíneas)</h1>
+
+<p align="center">
+  <img src="images/robot.png" alt="Robot Image" width="500"/>
+</p>
 
 ## 📌 Project Overview  
 This project involves the **design and development of an autonomous line-following robot**, built by a high school team as part of a robotics curriculum. The robot, named **"Robot Alpha Romeo"**, was developed using **Arduino**, C++ programming, and Fusion 360 for structural design. The objective was to **create a self-navigating robot that follows a black line and avoids obstacles**.
@@ -39,25 +43,6 @@ This project involves the **design and development of an autonomous line-followi
 4. The **L298N motor driver** controls the movement based on sensor input.  
 5. The process runs in a continuous **loop**, making real-time adjustments.  
 
-## 🔧 Setup Instructions  
-### 📌 Prerequisites  
-- **Arduino IDE** installed.  
-- **Fusion 360** for 3D model modifications (optional).  
-- **3D printer** (if you want to modify and print a new chassis).  
-
-### 🔌 Hardware Setup  
-1. Assemble the **3D-printed chassis**.  
-2. Connect the **Arduino Nano** to the motor driver **L298N**.  
-3. Attach the **TCRT5000L sensors** for line following.  
-4. Connect the **HC-SR04 sensor** for obstacle detection.  
-5. Power the system using a **9V battery or external power supply**.  
-
-### 💻 Software Setup  
-1. Clone this repository or download the source code.  
-2. Open the Arduino IDE and upload the **main.ino** file to the Arduino Nano.  
-3. Adjust sensor thresholds if needed for optimal performance.  
-4. Run tests and fine-tune motor speeds based on performance.  
-
 ## 🔬 Challenges & Solutions  
 ### ⚠️ Challenges Faced  
 - **Sensor misalignment:** Initially, the robot had difficulty distinguishing the black line from background noise.  
@@ -67,11 +52,8 @@ This project involves the **design and development of an autonomous line-followi
 ### ✅ Solutions Implemented  
 - **Repositioned sensors** to be closer to the surface.  
 - **Adjusted PWM values** to balance wheel rotation speeds.  
-- **Refined obstacle detection logic** to improve accuracy.  
-
-## 📷 Project Gallery  
-![Robot Assembly](https://example.com/image1.jpg)  
-![Testing Phase](https://example.com/image2.jpg)  
+- **Refined obstacle detection logic** to improve accuracy.
+  
 
 ## 📌 Future Improvements  
 - Implementing **machine learning** for better navigation.  
