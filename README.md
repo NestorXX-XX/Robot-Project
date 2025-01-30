@@ -1,7 +1,7 @@
 <h1 align="center">🚗 Line-Following Robot (Robot Siguelíneas)</h1>
 
 <p align="center">
-  <img src="robot.png" alt="Robot Image" width="500"/>
+  <img src="robot.png" alt="Robot Image" width="300" style="border: 2px solid black; padding: 10px; border-radius: 10px;"/>
 </p>
 
 ## 📌 Project Overview  
